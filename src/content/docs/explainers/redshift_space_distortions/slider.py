@@ -14,6 +14,8 @@ def plot(i: int):
     ax.plot(x, np.sin((1 + 0.4 * i) * x), c=colours[i])
     ax.set_xlim(0, 2 * np.pi)
     path = here / f"slider_{i}.png"
+    ax.set_xlabel("$\phi$")
+    ax.set_ylabel("y")
     fig.savefig(path, bbox_inches="tight")
     names[path] = f"Slider {i}, which has colour {colours[i]}"
 

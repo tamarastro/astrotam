@@ -9,6 +9,7 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://astrotam.com',
   integrations: [
     starlight({
       title: "Tam's Cosmology Conundrums",
@@ -17,7 +18,7 @@ export default defineConfig({
       },
       head: [
         {
-          tag: "script",
+        tag: "script",
           attrs: {
             src: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.js",
             defer: true,
@@ -48,8 +49,8 @@ export default defineConfig({
         {
           label: "Explainers",
           items: [
-            { slug: "redshift_space_distortions" },
             { slug: "alcock_paczynski_effect" },
+            { slug: "redshift_space_distortions" },
           ],
         },
       ],
