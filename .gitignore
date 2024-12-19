@@ -1,0 +1,78 @@
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PYTHON #
+__pycache__
+*.py[cod]
+*.py~
+
+# envs
+.env
+.venv
+
+# To use VS code
+.vscode
+
+# Setup.py build
+build/
+*egg-info/
+dist/
+
+.ruff_cache
+.pytest
+.pytest_cache
+.mypy_cache
+id_rsa
+*.ipynb
+coverage*
+.coverage
+.coverage.*
+.dmypy.json
+dmypy.json
+.idea
+.ipynb_checkpoints
+.cache
+profile_default/
+ipython_config.py
+__pypackages__/
+.python-version
+
+**/*.log
+**/*tmp*
+**/*secret*
+**/*.pkl
